@@ -31,11 +31,11 @@
 
 ### Setting Up Your Development Environment
 
-Create a personal fork of all UI projects and its proprietary dependencies to begin working on them. To do this, visit each of the repositories listed below and click the fork button at the top right.
+Create a personal fork this template, tha will be your workspace to work on and from where to do pull requests.
 
-Clone the Alertlogic fork of the al_ui_template repository into your local file system.  We recommend ~/workspace and documentation will refer to this path, but it is quite arbitrary.  Use the following sequence of commands to perform the clone and install your local development environment.  Be sure to substitute your github enterprise username for the 'ALGITHUB_USERNAME' parameter in the last command:
+Clone the Alertlogic fork of the al_ui_template repository into your local file system.  We recommend ~/workspace and documentation will refer to this path, but it is quite arbitrary.  Use the following sequence of commands to perform the clone and install your local development environment:
 
-    $ git clone git@github.com:alertlogic/al_ui_template.git al_ui_template
+    $ git clone git@github.com:<GITHUB_USERNAME>/al_ui_template.git al_ui_template
     $ cd al_ui_template
     $ build/install.sh
 
